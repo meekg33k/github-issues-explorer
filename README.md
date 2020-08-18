@@ -2,7 +2,7 @@ GitHub Issues Explorer is a simple web application that allows a user view and m
 It was created using [Create React App](https://github.com/facebook/create-react-app).
 
 ## Application Requirements
-This application requires a GitHub personal access token for full functionality. Please get one [here](https://github.com/settings/tokens);
+This application requires a GitHub personal access token for full functionality. Please get one [here](https://github.com/settings/tokens).<br/>
 
 
 
@@ -15,11 +15,11 @@ This application requires a GitHub personal access token for full functionality.
 - Basic error handling for case where invalid token is provided.
 
 ### Tools/Libraries
-- DateTime manipulation: [date-fns](https://date-fns.org/) over [moment](https://momentjs.com/) because the former has a reduced size and supports tree-shaking. See more details [here](https://github.com/you-dont-need/You-Dont-Need-Momentjs);
+- DateTime manipulation: [date-fns](https://date-fns.org/) over [moment](https://momentjs.com/) because the former has a reduced size and supports tree-shaking. See more details [here](https://github.com/you-dont-need/You-Dont-Need-Momentjs).
 
 - Drag and drop sorting: [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd).
 
-- State Management: [redux](https://redux.js.org/) and [redux-logic](https://github.com/jeffbski/redux-logic).
+- State Management: [redux](https://redux.js.org/) and [redux-logic](https://github.com/jeffbski/redux-logic).<br />
 
 
 
@@ -36,7 +36,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm build`
 Builds the app for production to the `build` folder.<br />
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.<br />
 
 
 
