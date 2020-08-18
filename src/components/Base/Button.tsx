@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export interface ButtonProps {
 	text: string;
-	onClick: () => void;
+	onClick?: () => void;
 }
 
 export const ButtonEl = styled.button`

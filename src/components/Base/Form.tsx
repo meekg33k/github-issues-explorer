@@ -13,7 +13,7 @@ export interface FormWrapperProps {
 export interface FormProps {
 	errorText?: string;
 	onChangeInput: (value: string) => void;
-	onClick: () => void;
+	onButtonClick: () => void;
 	onSubmit: () => void;
 }
 
@@ -51,14 +51,14 @@ export const FormButton = styled.button`
 `
 
 export const Form: React.FC<FormWrapperProps & FormProps> = (props) => {
-	const { errorText, isError, isLoading, onClick, onChangeInput, onSubmit } = props;
+	const { errorText, isError, isLoading, onButtonClick, onChangeInput, onSubmit } = props;
 	return (
 		<FormWrapper isLoading={isLoading} onSubmit={onSubmit}>
 			<Input placeholder='Enter API token here' onChange={onChangeInput} />
 			{isError && errorText && <Text text={errorText} />}
 			<Button
 				text={isLoading ? 'Loading...' : 'Load Repositories'}
-				onClick={onClick} />
+				onClick={onButtonClick} />
 		</FormWrapper>
 	);
 };

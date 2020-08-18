@@ -123,7 +123,7 @@ const App: React.FC<AppProps> = (props) => {
 				isError={error || (apiError ? true : false)}
 				isLoading={isLoading}
 				onChangeInput={handleInputChange}
-				onClick={handleButtonClick}
+				onButtonClick={handleButtonClick}
 				onSubmit={handleSubmit}
 			/>
 			{renderColumns()}
