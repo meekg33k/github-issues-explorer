@@ -1,0 +1,3 @@
+export const DEFAULT_AVATAR_HEIGHT = 40;
+export const DEFAULT_AVATAR_WIDTH = 40;
+export const MOBILE_BREAKPOINT = 660;
