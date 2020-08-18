@@ -32,7 +32,7 @@ export const ColumnLayoutWrapper = styled.div<ColumnLayoutWrapperProps>`
 export const ColumnLayout: React.FC<ColumnLayoutProps & ColumnLayoutWrapperProps> = (props) => {
 	const { columns, onSelectItem, onSortItems, selectedItem } = props;
 	return (
-		<ColumnLayoutWrapper count={columns && columns.length || 0}>
+		<ColumnLayoutWrapper count={(columns && columns.length) || 0}>
 			{
 				columns && columns.map((column, index) =>
 					(

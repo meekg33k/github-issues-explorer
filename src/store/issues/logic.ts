@@ -1,4 +1,4 @@
-import { createLogic, Logic } from 'redux-logic';
+import { createLogic } from 'redux-logic';
 import {
 	CANCEL_FETCH_ISSUES_REQUEST,
 	FETCH_ISSUES_REQUEST,
