@@ -47,7 +47,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - Option to save access token so user doesn't have to enter it every time they visit the page.
 - Option for user to specify number of items to be fetched per API call.
 - Toggle option to allow user switch between original issues order and personalized issues sort order.
-- More robust error-handling with more user-friendly error messages.
+- Better robust error-handling with more user-friendly error messages.
 - Improved support for more breakpoints.
 
 ### Other Improvements
